@@ -19,15 +19,23 @@ h2 {
 }
 
 .mecze {
+  display: flex;
+  gap: 20px;
   color: white;
   text-align: center;
-  width: 200px;
+  width: 100%;
   margin: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
 }
 
-.mecze:hover {
+.test {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.test:hover {
   border: 1px solid white;
 }
 
